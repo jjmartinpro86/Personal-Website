@@ -1,2 +1,2 @@
 # Personal Website
- Personal Website 
+ James Martinek Personal Website 
