@@ -1,0 +1,38 @@
+
+h1 {
+    text-align: center;
+    font-style: italic;
+   font-size: 100px;
+
+}
+a:link {
+    color: black;
+
+}
+a.visited {
+    background-color: aqua;
+}
+a {
+    display: grid;
+    text-align: center;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+}
+p {
+    text-align: center;
+    font-size: 10px;   
+}
+div {
+    width: 300px;
+    height: auto;
+    border: 10px black;
+    border-style: outset;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(237, 237, 243);
+    padding: 50px;
+    margin-left: 39%;
+}
