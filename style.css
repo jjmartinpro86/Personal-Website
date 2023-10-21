@@ -5,22 +5,31 @@ h1 {
    font-size: 100px;
    padding: 12px;
    background-color: lightgray;
+   border-color: black ;
+
 }
 a:link {
-    color: black;
+    color: rgb(247, 10, 10);
 
 }
 a.visited {
     background-color: aqua;
 }
 a {
-    display: grid;
+display: block;
+    color:black(91, 11, 11);
     text-align: center;
+    background-color: lightgray;
+   
+    margin-inline: 50;
+    border-width: 5px;
+    border-color: black;
 }
 h2 {
     text-transform: uppercase;
     text-align: center;
-    font-style: italic;
+    font-style:normal;
+    font-size: 35px;
 }
 p {
     text-align: center;
@@ -35,7 +44,7 @@ div {
     font-weight: bold;
     background-color: rgb(237, 237, 243);
     padding: 50px;
-    margin-left: 39%;
+   margin-left: 745px;
 }
 #second {
     width: 300px;
@@ -45,6 +54,70 @@ div {
     font-style: italic;
     font-weight: bold;
     background-color: rgb(237, 237, 243);
-    padding: 50px;
-    margin-left: 39%;   
+    padding: 50px; 
+   
+    
+
+      
+}
+body {
+    background-image: url("https://www.sbdcnj.com/wp-content/uploads/federal-reservel-logo-900x400-1.jpg");
+}
+#demo {
+    font-size: 55px;
+    color: black;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-style: unset;
+    border-color: black;
+    position: absolute;
+}
+
+}
+#homeparagraph {
+    height: auto;
+    width: 425px;
+    border: 10px black;
+    border-style: outset;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(237, 237, 243);
+    padding: 50px; 
+    font-size: 25px;
+    position: relative;
+    margin-top: 25px;
+
+    
+}
+#homephoto {
+    width: 15%;
+    height: auto;
+    padding-left: 2%;
+    position: fixed;
+    left: 10px;
+    top: 25px;
+}
+#photo1 {
+    width: 15%;
+    height: auto;
+    padding-left: 2%;
+    position: fixed;
+    bottom: 25px;
+    left: 10px;
+}
+#photo2 {
+    width: 15%;
+    height: auto;
+    padding-right: 5%;
+    position: fixed;
+    right:10px;
+    top: 25px;
+}
+#photo3 {
+    width: 15%;
+    height: auto;
+    padding-right: 2%;
+  position: fixed;
+  bottom: 25px;
+  right: 70px;
 }
