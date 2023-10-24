@@ -1,0 +1,43 @@
+
+.header {
+    padding: 15px; 
+    text-align: center; 
+    background: lightslategrey; 
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+  }
+  .header h1 {
+    font-size: 40px;
+    text-decoration: dotted;
+  }
+  .navbar {
+  background-color: lightgray;
+  }
+  .navbar {
+  
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: dotted;
+  }
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+img {
+    height:auto;
+    width: 325px;
+    padding-left: -50px;
+    padding-bottom: 50px;
+    padding-right: 2%;
+    float: left;
+}
+.main {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
