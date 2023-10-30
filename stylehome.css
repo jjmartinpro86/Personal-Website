@@ -32,11 +32,6 @@ p1 {
   background-color: #333;
   padding: 10px 0;
 }
-.float-left !important {
-  float: left;
-  margin: 10px;
-  
-}
 .navbar a {
   color: white;
   text-decoration: none;
