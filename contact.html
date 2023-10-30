@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylecontact.css">
+    <script src="script.js"></script>
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="linkedin">LinkedIn:</label>
+            <input type="url" id="linkedin" name="linkedin">
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="social-links">
+        <h2>Let's Network</h2>
+        <div class="link">
+            <a href="https://www.linkedin.com/in/james-martinek-651491160" target="_blank">
+                <img style="height: 35px" src="./Linkedin.jpg" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="link">
+            <a href="" target="_blank">
+                <img style="height: 55px;" src="https://logos-world.net/wp-content/uploads/2020/10/Slack-Logo-2019-present.jpg" alt="Slacker">
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://github.com/jjmartinpro86/Personal-Website.git" target="_blank">
+                <img style="height: 35px;" src="./Github.jpg" alt="GitHub">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Visitor Count: <span id="visitor-count">0</span></p>
+    </footer>
+</body>
+</html>
