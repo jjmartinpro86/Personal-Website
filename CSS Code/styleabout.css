@@ -27,8 +27,8 @@ h2 {
 p {
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
-  text-align: left;
-  margin-right:35%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 .navbar {
   display: flex;
@@ -44,26 +44,30 @@ p {
 
 
 .container-home {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .image-column {
-    flex-basis: 58%;
-    margin-left: 25%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 .image-column img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 50px;
+    float: left;
 }
 
 .text-column {
-    flex-basis: 88%;
-    text-align: left;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 h2 {
@@ -71,8 +75,12 @@ h2 {
   justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
-p1 {
+.quote, p1 {
   display: flex;
-  justify-content: center;
+  text-align: center;
+  align-items: center;
   
+}
+#TopHome {
+  padding: 2px;
 }
