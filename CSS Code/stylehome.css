@@ -4,13 +4,13 @@ body, h1, h2, p {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Times New Roman', Times, serif
   background-color: #f2f2f2;
   color: #333;
 }
 
 header {
-  background-color: #333;
+  background-color: #180de7;
   color: white;
   text-align: center;
 }
@@ -27,8 +27,11 @@ p {
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  margin-right: 35%;
-  margin-left: 35%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+ ;
 }
 .navbar {
   display: flex;
@@ -52,9 +55,10 @@ p {
   padding: 20px;
 }
 
-.quote p {
+.quote, p {
   font-style: italic;
-  font-size: 16px;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .container-home {
@@ -64,14 +68,16 @@ p {
 
 #Picture {
   text-align: center;
-  padding: 20px;
+  padding: 5px;
 }
 
-#Image {
+#Image1 {
   max-width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 5px #999;
+  height: 345px;
+  width: 445;
+  border-radius: 45px;
+  border: 1px solid #1d1b1b;
+  box-shadow: 5px 5px 5px #fcb953;
 }
 
 #paragraph {
@@ -82,7 +88,7 @@ p {
 .paragraph1 {
   text-align: center;
   padding: 20px;
-  margin-left: 25px;
+  margin-left: 2px;
 }
 footer {
   text-align: center;
