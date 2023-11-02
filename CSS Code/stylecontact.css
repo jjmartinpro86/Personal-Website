@@ -38,6 +38,9 @@ body, h1, h2, p {
     margin: 0 20px;
     font-family: 'Times New Roman', Times, serif;
   }
+  select option:nth-child(even) {
+    background-color: rgb(16, 236, 100);
+}
   .contact-form, .social-links {
     width: 80%;
     max-width: 600px;
